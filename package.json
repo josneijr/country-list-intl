@@ -4,7 +4,8 @@
   "description": "Contains internationalized country lists, ISO-3166 compliant",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "ts-mocha 'tests/**/*.ts' --paths"
   },
   "author": {
     "name": "Josnei Luis Olszewski Junior",
@@ -13,6 +14,12 @@
   "license": "MIT",
   "types": "dist/index.d.ts",
   "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^8.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "ts-mocha": "^7.0.0",
     "typescript": "^3.9.7"
   },
   "keywords": [
@@ -29,5 +36,6 @@
     "ISO-3166",
     "ISO-3166-1",
     "typed"
-  ]
+  ],
+  "dependencies": {}
 }
