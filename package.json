@@ -4,7 +4,7 @@
   "description": "Contains internationalized country lists, ISO-3166 compliant",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "author": {
     "name": "Josnei Luis Olszewski Junior",
@@ -18,9 +18,16 @@
   "keywords": [
     "country-list",
     "country",
+    "countries",
+    "name",
+    "names",
     "list",
     "regional",
     "package",
-    "intl"
+    "intl",
+    "internationalized",
+    "ISO-3166",
+    "ISO-3166-1",
+    "typed"
   ]
 }
