@@ -4,7 +4,7 @@
   "description": "Contains internationalized country lists, ISO-3166 compliant",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p tsconfig-build.json",
     "test": "ts-mocha 'tests/**/*.ts' --paths"
   },
   "author": {
