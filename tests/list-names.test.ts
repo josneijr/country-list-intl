@@ -1,4 +1,4 @@
-import { listNames } from "@src/index";
+import { listNames } from "../index";
 import { expect } from "chai";
 
 describe("List countries names", () => {

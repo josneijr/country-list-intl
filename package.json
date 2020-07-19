@@ -1,6 +1,6 @@
 {
   "name": "country-list-intl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Contains internationalized country lists, ISO-3166 compliant",
   "main": "dist/index.js",
   "scripts": {

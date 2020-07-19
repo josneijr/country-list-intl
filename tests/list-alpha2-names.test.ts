@@ -1,6 +1,6 @@
-import enUS from "@data/en-US.json";
-import ptBR from "@data/pt-br.json";
-import { listAlpha2WithNames } from "@src/index";
+import enUS from "../data/en-US.json";
+import ptBR from "../data/pt-br.json";
+import { listAlpha2WithNames } from "../index";
 import { expect } from "chai";
 
 describe("List countries names with alpha-3 code", () => {

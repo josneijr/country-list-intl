@@ -2,18 +2,14 @@
   "compilerOptions": {
     "target": "es6",
     "module": "commonjs",
+    "moduleResolution": "node",
     "declaration": true,
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "dist",
     "resolveJsonModule": true,
-    "baseUrl": ".",
-    "paths": {
-      "@data/*": ["data/*"],
-      "@src/*": ["*"],
-      "@tests/*": ["tests/*"]
-    }
+    "baseUrl": "."
   },
   "exclude": ["node_modules", "dist"]
 }

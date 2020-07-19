@@ -1,5 +1,5 @@
-import enUS from "@data/en-US.json";
-import ptBR from "@data/pt-br.json";
+import enUS from "./data/en-US.json";
+import ptBR from "./data/pt-br.json";
 
 type Locale = "pt-BR" | "en-US";
 
