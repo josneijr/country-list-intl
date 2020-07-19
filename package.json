@@ -1,0 +1,26 @@
+{
+  "name": "country-list-intl",
+  "version": "1.0.0",
+  "description": "Contains internationalized country lists, ISO-3166 compliant",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Josnei Luis Olszewski Junior",
+    "email": "josneijr@gmail.com"
+  },
+  "license": "MIT",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  },
+  "keywords": [
+    "country-list",
+    "country",
+    "list",
+    "regional",
+    "package",
+    "intl"
+  ]
+}
